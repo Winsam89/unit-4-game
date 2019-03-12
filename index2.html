@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     
+             
+</head>
+<body>
+<div class="row">
+    <div class="col s12">
+        <div class="container">
+            <h1>Crystal Collector</h1>
+            <div class="ranNumber">XX</div>
+            <p>RANDOM NUMBER</p>
+            <div id="yourScore">YY</div>
+            <p>Your added score to match random number</p>
+            <button id="crystalOne" class="crystal-button" ></button>
+            <button id="crystalTwo" class="crystal-button"></button>
+            <button id="crystalThree"class="crystal-button" onclick ="add()"></button>
+            <button i∫d="crystalFour"class="crystal-button" onclick ="add()"></button>
+            <p class="instruction">You will be given a random number at the start of the game.
+                <br>
+                <br>
+                By clicking on a crystal you will add a specific amount of points to your total score.
+                <br />
+                <br />
+                You win the game by matching your total score to random number, you lose the game if your total score goes over the random number.
+                <br />
+                <br />
+                The value of each crystal is hidden from you until click on it.
+                <br />
+                <br />
+                Each time when the game starts, the game will change the value of each crystal.</p>
+                <br />
+                <br />
+            <div class="scoreBoard">
+                <h6 class="winlose">Win Lose!</h6>
+                <p>Wins: <span class="wins">XX</span></p>
+                <p>Losses: <span class="losses">XX</span></p>
+            </div>
+            
+        </div>
+
+    
+    </div>
+</div>
+
+    <script src="game2.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

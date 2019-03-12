@@ -1,0 +1,117 @@
+.row {
+    background: rgb(255, 255, 255);
+    height: 600px;
+}
+
+.container {
+    text-align: center;
+    padding-left: 0px 50px 0px 50px;
+}
+
+div h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color:  #f55959;
+}
+
+.ranNumber {
+    height: 100px;
+    width: 200px;
+    border: solid 1px rgb(64, 244, 184);
+    background: rgb(219, 223, 238);
+    margin: 20px auto 0px auto;
+    font-size: 64px;
+}
+
+.yourScore {
+    height: 100px;
+    width: 200px;
+    border: solid 1px rgb(64, 244, 184);
+    background: rgb(219, 223, 238);
+    margin: 20px auto 0px auto;
+    font-size: 64px;
+}
+
+p {
+    margin: 0px auto 0px auto;
+    font-size: 20px;
+    text-emphasis: bold;
+}
+
+.instruction {
+    font-size: 14px;
+}
+
+/* Score board styles */
+.scoreBoard {
+    height: 130px;
+    background-color: rgb(235, 235, 235);
+}
+
+.winlose {
+    font-size: 30px;
+    color: #f55959;
+    padding: 10px;
+
+}
+
+
+.crystal-button {
+    height: 60px;
+    width: 80px;
+    border: solid 1px rgb(64, 244, 184);
+    margin: 20px;
+    background-color: white;
+}
+/* button jewel 1 */
+#crystalOne {
+    background-image: url(".//images/jewel01.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: white;
+
+}
+
+#crystalOne:hover {
+    background: url("./images/jewel1.png") no-repeat;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+/* button jewel 2 */
+#crystalTwo {
+    background-image: url(".//images/jewel02.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#crystalTwo:hover {
+    background: url("./images/jewel2.png") no-repeat;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+/* button jewel 3 */
+#crystalThree {
+    background-image: url(".//images/jewel03.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#crystalThree:hover {
+    background: url("./images/jewel3.png") no-repeat;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/* button jewel 4 */
+#crystalFour {
+    background-image: url(".//images/jewel04.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#crystalFour:hover {
+    background: url("./images/jewel4.png") no-repeat;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
